@@ -1,0 +1,236 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Salomon",
+      "product_model": "XT-4 OG White/Ebony/Lunar Rock",
+      "description": "Whether used on trails or urban expeditions, XT-4 OG is a celebration of Salomon’s greatest performance features. With all the unique features that made it top of its game, from the stable, full-length Agile ChassisTM Skeleton to the soft, dual-density midsole component.\r\n\r\n· Upper: Synthetic / Textile\r\n· Lining: Textile\r\n· Quicklace system\r\n· Dual-density EVA midsole\r\n· Rubber Contagrip outsole features lugs for a better grip\r\n· Full-length Agile ChassisTM Skeleton delivers great stability over any distance\r\n· OrthoLite® sockliner\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "152.89",
+      "quantity": 4,
+      "image": "products_images/Salomon_XT-4_OG_WhiteEbonyLunar_Rock_PZWuPGh.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "New Balance",
+      "product_model": "BB480L3W White",
+      "description": "· Lifestyle silhouette\r\n· Soft, full-grain leather upper\r\n· Sturdy heel counter for stability\r\n· Leather ‘N’ logo on sides\r\n· New Balance logo on heel counter\r\n· Rubber outsole for traction and durability\r\n· OrthoLite® insoles\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "86.78",
+      "quantity": 10,
+      "image": "products_images/New_Balance_BB480L3W_White.о_t6HzTRy.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "MISBHV",
+      "product_model": "Woman Army Sneaker High Monogram Beige",
+      "description": "Canvas lace-up sneakers on rubber sole. Upper made of jacquard fabric in black with signature monogram logo. Rubber logo patch with \"M\" logo on a side. \"M\" logo embossed on the heel counter.\r\n\r\n· Jacquard fabric: 82% polyester, 18% cotton\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "206.61",
+      "quantity": 8,
+      "image": "products_images/MISBHV_Woman_Army_Sneaker_High_Monogram_Beige.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Nike",
+      "product_model": "Air Max Scorpion Flyknit NN Dark Smoke Grey",
+      "description": "· Air Max Scorpion is among the first Nike footwear created entirely during the pandemic with Nike designers, engineers and scientists pioneering new ways of working together virtually\r\n· New digital tools and technologies combined with decades of vertical Air Manufacturing Innovation (Air MI) knowhow\r\n· Air Max Scorpion offers the most Air yet in terms of pounds per square inch (referring to air pressure) for a dynamic ride and all-day comfort\r\n· Flyknit chenille knitted construction\r\n· Swoosh embroidery at side\r\n· Chunky and translucent sole unit\r\n· Pull tab at the back\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "247.93",
+      "quantity": 3,
+      "image": "products_images/Nike_Air_Max_Scorpion_Flyknit_NN_Dark_Smoke_Grey.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Converse x A-COLD-WALL*",
+      "product_model": "Chuck Taylor All Star '70 High Pavement/Silver Birch",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store",
+      "price": "90.91",
+      "quantity": 14,
+      "image": "products_images/Converse_x_A-COLD-WALL_Chuck_Taylor_All_Star_70_High_PavementSilver_Birch.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Comme des Garçons Play",
+      "product_model": "x Chuck Taylor All Star '70 Ox Black",
+      "description": "· A collaboration between Comme des Garçons PLAY and Converse\r\n· Iconic Chuck Taylor 1970’s design\r\n· Brand’s signature bug-eyed love heart logo on the side\r\n· Canvas upper\r\n· Eyelet to the side panel for breathability\r\n· White webbed stripe at heel counter\r\n· OrthoLite® Insole\r\n· Vulcanised chunky rubber sole; rubber toe cap\r\n\r\nProduct ID: P1K111\r\nCoupons and discounts are not available for this product.\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "128.10",
+      "quantity": 21,
+      "image": "products_images/Comme_des_Garcons_Play_x_Chuck_Taylor_All_Star_70_Ox_Black.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "New Balance",
+      "product_model": "M2002RVC 'Pocket' Team Away Grey/Dark Silver Metallic",
+      "description": "· 2002 silhouette was first introduced in 2010\r\n· Sportswear classics\r\n· Reimagined silhouette with an updated sole unit taken from 860v2 model\r\n· Suede, leather and diamond-patterned knit mesh upper\r\n· Signature ‘N’ logo on sides\r\n· 'NB' branding on heel counter\r\n· ‘New Balance Running’ logo on tongue\r\n· Reflective details\r\n· 2002R detail on side of heel counter\r\n· ABZORB® midsole absorbs impact through a combination of cushioning and compression resistance\r\n· ABZORB SBS® heel cushioning delivers additional stability and comfort\r\n· N-ergy outsole provides superior shock absorption\r\n· Stability Web outsole technology provides added arch support\r\n· Lace-up closure for a secure fit\r\n· Detachable zip-closure mesh pouch\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "148.76",
+      "quantity": 13,
+      "image": "products_images/New_Balance_M2002RVC_Pocket_Team_Away_GreyDark_Silver_Metallic.jpeg",
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Carhartt WIP",
+      "product_model": "S/S Marlin T-Shirt Treehouse",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "37.19",
+      "quantity": 17,
+      "image": "products_images/Carhartt_WIP_SS_Marlin_T-Shirt_Treehouse.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "name": "Carhartt WIP",
+      "product_model": "Cole Cargo Pant 'Moraga' Twill Kiwi Garment Dyed",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "99.17",
+      "quantity": 16,
+      "image": "products_images/Carhartt_WIP_Cole_Cargo_Pant_Moraga_Twill_Kiwi_Garment_Dyed.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "name": "Heresy",
+      "product_model": "Spider Cardigan Green",
+      "description": "Knitted cardigan in cotton yarn, featuring 'Spider' & 'Cobweb' embroidery in thick cotton thread on the front.\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "157.02",
+      "quantity": 6,
+      "image": "products_images/Heresy_Spider_Cardigan_Green.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+      "name": "Heresy",
+      "product_model": "Quest T-Shirt Black",
+      "description": "Short sleeve t-shirt in heavyweight 100% cotton jersey, featuring 'Quest' graphic on the front. The t-shirt comes in a boxy fit and has been washed to avoid shrinkage.\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "53.72",
+      "quantity": 6,
+      "image": "products_images/Heresy_Quest_T-Shirt_Black.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+      "name": "FUC",
+      "product_model": "Who Gives A Fleece Jacket Brown/Black",
+      "description": "· Sherpa fleece jacket by FUC\r\n· 100% recycled polyester\r\n· Regular fit\r\n· Pulling cords at the hood & bottom\r\n· YKK zippers\r\n· Chest pocket\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "107.44",
+      "quantity": 3,
+      "image": "products_images/FUC_Who_Gives_A_Fleece_Jacket_BrownBlack.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+      "name": "FUC",
+      "product_model": "Bubble Hoodie Blue",
+      "description": "· Hoodie by FUC\r\n· 100% cotton, 400gsm\r\n· Relaxed fit\r\n· Flat-pulling cords\r\n· Double-layered hood\r\n· Embroidery pattern\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "74.38",
+      "quantity": 12,
+      "image": "products_images/FUC_Bubble_Hoodie_Blue.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+      "name": "Dime",
+      "product_model": "Athletic Jersey Sand",
+      "description": "· Jersey t-shirt by Dime\r\n· 100% Polyester\r\n· Regular fit\r\n· Striped rib finishings at neck and sleeves\r\n· Wavy paneled yokes with DTG print\r\n· Big print on center front\r\n· Small classic embroidered Dime logo at right chest\r\n· Crest logo at left chest\r\n· 3M Knowsweat print at left hem\r\n· Woven label at right hem\r\n· Dime printed logo at top of center back neck\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "78.51",
+      "quantity": 6,
+      "image": "products_images/Dime_Athletic_Jersey_Sand.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+      "name": "Patta",
+      "product_model": "ssium T-Shirt Black",
+      "description": "Right from the beginning of Patta, graphic t-shirts have always been as important to us, as our sneaker drops and collaborative releases. They serve as a street canvas for us to get our message across to people. Giving you and us a voice out there on the corners. Speaking up for what we believe in. Together as a family. For our Spring Summer 2023 season this has not changed, with a wide assortment of high quality graphic tees included. The Patta Pattassium T-Shirt is produced in 180gsm cotton. It features a screen printed Patta script logo at the left hand side of the chest. The back is adorned with a screen printed Pattassium artwork.\r\n\r\n· Made in Mauritius\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "41.32",
+      "quantity": 20,
+      "image": "products_images/Patta_ssium_T-Shirt_Black.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+      "name": "Pleasures",
+      "product_model": "x Blur Movin' On T-Shirt Black",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "53.72",
+      "quantity": 18,
+      "image": "products_images/Pleasures_x_Blur_Movin_On_T-Shirt_Black.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+      "name": "Carhartt WIP",
+      "product_model": "Landon Pant 'Robertson' Denim Black Heavy Stone Wash",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "82.64",
+      "quantity": 17,
+      "image": "products_images/Carhartt_WIP_Landon_Pant_Robertson_Denim_Black_Heavy_Stone_Wash.jpeg",
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+      "name": "Rassvet",
+      "product_model": "Firewall T-Shirt Black",
+      "description": "Have any questions regarding the sizing? Please email info@store.com\r\n\r\nThe Store works with official suppliers only. All products are original. Available online and in-store.",
+      "price": "70.25",
+      "quantity": 14,
+      "image": "products_images/Rassvet_Firewall_T-Shirt_Black.jpeg",
+      "category": 2
+    }
+  }
+]
