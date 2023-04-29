@@ -28,10 +28,7 @@ class EmailVerification(models.Model):
                        })
         verification_link = f'{settings.DOMAIN_NAME}{link}'
         subject = f'Account verification for {self.user.username}'
-        message = f'Follow the link to verify your account. {verification_link}'.format(
-            self.user.email,
-            verification_link
-        )
+        message = f'Follow the link to verify your account. {verification_link}'
         send_mail(
             subject=subject,
             message=message,

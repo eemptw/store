@@ -14,7 +14,6 @@ import environ
 
 from pathlib import Path
 
-
 env = environ.Env(
     DEBUG=bool,
     SECRET_KEY=str,
@@ -29,11 +28,11 @@ env = environ.Env(
     DATABASE_HOST=str,
     DATABASE_PORT=str,
 
-    EMAIL_HOST=str,
-    EMAIL_PORT=int,
-    EMAIL_HOST_USER=str,
-    EMAIL_HOST_PASSWORD=str,
-    EMAIL_USE_TLS=bool,
+    # EMAIL_HOST=str,
+    # EMAIL_PORT=int,
+    # EMAIL_HOST_USER=str,
+    # EMAIL_HOST_PASSWORD=str,
+    # EMAIL_USE_TLS=bool,
 
     STRIPE_PUBLIC_KEY=str,
     STRIPE_SECRET_KEY=str,
@@ -144,11 +143,17 @@ CASHES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'store_db',
-        'USER': 'store_username',
-        'PASSWORD': 'tDw&#U5f99hx',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        # 'NAME': 'store_db',
+        # 'USER': 'store_username',
+        # 'PASSWORD': 'tDw&#U5f99hx',
+        # 'HOST': 'localhost',
+        # 'PORT': '5432',
+
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT'),
     }
 }
 
@@ -185,9 +190,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
+if DEBUG:
+    STATICFILES_DIRS = [
+        BASE_DIR / 'static'
+    ]
+else:
+    STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
@@ -208,11 +216,17 @@ LOGOUT_REDIRECT_URL = '/'
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 else:
-    EMAIL_HOST = env('EMAIL_HOST')
-    EMAIL_PORT = env('EMAIL_PORT')
-    EMAIL_HOST_USER = env('EMAIL_HOST_USER')
-    EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
-    EMAIL_USE_TLS = env('EMAIL_USE_TLS')
+    # EMAIL_HOST = env('EMAIL_HOST')
+    # EMAIL_PORT = env('EMAIL_PORT')
+    # EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+    # EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+    # EMAIL_USE_TLS = env('EMAIL_USE_TLS')
+
+    EMAIL_HOST = 'smtp.yandex.com',
+    EMAIL_PORT = '465',
+    EMAIL_HOST_USER = 'store.emailserver@yandex.ru',
+    EMAIL_HOST_PASSWORD = 'T3qbCj9TSW6G',
+    EMAIL_USE_TLS = 'True',
 
 # OAuth
 
@@ -241,3 +255,13 @@ CELERY_RESULT_BACKEND = f'redis://{REDIS_HOST}:{REDIS_PORT}'
 STRIPE_PUBLIC_KEY = env('STRIPE_PUBLIC_KEY')
 STRIPE_SECRET_KEY = env('STRIPE_SECRET_KEY')
 STRIPE_WEBHOOK_SECRET = env('STRIPE_WEBHOOK_SECRET')
+
+# Django REST framework
+
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 3,
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
