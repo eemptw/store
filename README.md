@@ -44,9 +44,3 @@ redis-server
 ```
 celery -A store worker --loglevel=INFO
 ```
-
-
-Для экспорта данных из базы данных Django в формате JSON используйте команду dumpdata:
-```
-./manage.py dumpdata <app_name>.<model_name> --indent 4 > <fixture_name>.json
-```
