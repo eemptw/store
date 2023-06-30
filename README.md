@@ -18,7 +18,7 @@ git clone https://github.com/eemptw/store
 
 2. Создайте и активируйте новую виртуальную среду:
 ```
-python3.9 -m venv ../venv
+python3.10 -m venv ../venv
 source ../venv/bin/activate
 ```
 
